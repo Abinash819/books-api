@@ -1,0 +1,29 @@
+{
+  "info": {
+    "name": "Books API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Create Book",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "url": { "raw": "http://localhost:5000/books" },
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"name\": \"Test Book\",\n  \"description\": \"Testing create\",\n  \"author\": \"Test Author\",\n  \"publishDate\": \"2020-01-01\"\n}"
+        }
+      }
+    },
+    {
+      "name": "Explore Books",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "http://localhost:5000/books?search=code&page=1&limit=5"
+        }
+      }
+    }
+  ]
+}
