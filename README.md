@@ -193,7 +193,7 @@ It also confirms the API contract for frontend or third-party integrations.
 4. Verify real-time responses visually  
 
 ---
-
+<!-- 
 ## 📸 Testing Screenshots
 
 ### 1️⃣ Backend Server & Database Connection
@@ -215,7 +215,7 @@ Include screenshots demonstrating:
 - Author-based filtering
 - Combined filtering with sorting
 
----
+--- -->
 
 ## 🔮 Future Enhancements
 
