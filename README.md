@@ -45,7 +45,7 @@ A scalable and industry-oriented RESTful API built using **Node.js**, **Express*
 ## ⚙️ Setup & Installation
 
 ### 1️⃣ Clone the Repository
-```bash
+
 git clone https://github.com/ansuljain789/Books-API-Node.js-Interview-Task.git
 cd BookApiNodeJsTask
 
